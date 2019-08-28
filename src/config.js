@@ -1,7 +1,7 @@
 const dev = {
   s3: {
-    REGION: "YOUR_DEV_S3_UPLOADS_BUCKET_REGION",
-    BUCKET: "YOUR_DEV_S3_UPLOADS_BUCKET_NAME"
+    REGION: "us-east-1",
+    BUCKET: "notes-app-2-api-dev-attachmentsbucket-3mkcabwfmw97"
   },
   apiGateway: {
     REGION: "us-east-1",
@@ -17,8 +17,8 @@ const dev = {
 
 const prod = {
   s3: {
-    REGION: "YOUR_PROD_S3_UPLOADS_BUCKET_REGION",
-    BUCKET: "YOUR_PROD_S3_UPLOADS_BUCKET_NAME"
+    REGION: "us-east-1",
+    BUCKET: "notes-app-2-api-prod-attachmentsbucket-1w82mzx6q74m"
   },
   apiGateway: {
     REGION: "us-east-1",
